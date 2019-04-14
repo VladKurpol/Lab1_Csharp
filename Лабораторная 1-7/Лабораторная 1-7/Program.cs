@@ -14,7 +14,12 @@ namespace Lab1
 
             double second_age = Convert.ToDouble(Console.ReadLine());
 
-            double result = first_age * second_age;
+            Result(first_age, second_age);
+        }
+
+        static void Result(double x,double y)
+        {
+            double result = x * y;
 
             Console.WriteLine($"Your result is - {result}");
             Console.ReadKey();
